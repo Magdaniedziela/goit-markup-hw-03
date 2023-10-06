@@ -72,6 +72,10 @@ body {
 
 .contact {
   font-style: normal;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 .hero {
   background-color: #2e2f42;
@@ -232,7 +236,7 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.header {
+.border {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
@@ -250,7 +254,7 @@ h2 {
   padding-bottom: 25px;
 }
 .container {
-  width: 1200px;
+  width: 1158px;
   margin: 0 auto;
 }
 .section-two-list {
