@@ -244,6 +244,10 @@ h2 {
 .logo-nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .container {
   width: 1200px;
