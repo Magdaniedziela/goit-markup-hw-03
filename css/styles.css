@@ -107,6 +107,7 @@ body {
 
   margin: 0 auto;
   margin-bottom: 30px;
+  max-width: 496px;
 }
 .hero-button {
   background-color: #2196f3;
@@ -252,9 +253,7 @@ h2 {
   padding-bottom: 25px;
   margin-right: 76px;
 }
-.logo-link {
-  margin-right: 76px;
-}
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -263,8 +262,11 @@ h2 {
 .section-two-list {
   width: calc((100%-72px) / 4);
 }
-.img {
+.picture-block {
   display: block;
+}
+.main-title {
+  padding: 188px 0 188px;
 }
 /*/PORTFOLIO/*/
 
