@@ -133,7 +133,7 @@ h2 {
   color: #2e2f42;
 }
 
-.goals-list {
+.goals-list-list {
   list-style: none;
   display: flex;
   gap: 24px;
@@ -243,7 +243,7 @@ h2 {
   display: flex;
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 15px 0 15px;
 }
 .logo-nav {
   display: flex;
@@ -252,6 +252,7 @@ h2 {
   gap: 30px;
   padding-top: 25px;
   padding-bottom: 25px;
+  margin-right: 76px;
 }
 .container {
   width: 1158px;
