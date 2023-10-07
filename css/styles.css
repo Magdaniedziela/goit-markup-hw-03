@@ -239,13 +239,9 @@ h2 {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
-  display: flex;
-  padding: 0 15px 0 15px;
 }
 .header-container {
   display: flex;
-  width: 1158px;
-  margin: 0 auto;
 }
 .logo-nav {
   display: flex;
@@ -256,9 +252,13 @@ h2 {
   padding-bottom: 25px;
   margin-right: 76px;
 }
+.logo-link {
+  margin-right: 76px;
+}
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
 .section-two-list {
   width: calc((100%-72px) / 4);
