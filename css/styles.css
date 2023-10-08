@@ -217,6 +217,7 @@ h2 {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .logo-part-foot {
   color: var(--purple);
@@ -227,16 +228,30 @@ h2 {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-foot {
   color: var(--off-white);
+  padding: 100px 0 100px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17em;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 .footer-paragraph {
   color: var(--off-white);
   font-size: 16px;
-  line-height: 1.5;
+
   letter-spacing: 0.32px;
+
+  font-weight: 400;
+  line-height: 1.5em;
+
+  max-width: 264px;
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -268,10 +283,33 @@ h2 {
 .main-title {
   padding: 188px 0 188px;
 }
+
+.images {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /*/PORTFOLIO/*/
+.logo-part {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17em;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
+}
 
 .filter-list {
-  list-style: none;
+  font-family: "Roboto", sans-serif;
+  color: var(--main-page-color-2);
+  background-color: var(--main-text-color-2);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5em;
+  letter-spacing: 0.64px;
+  cursor: pointer;
 }
 
 .filter {
@@ -291,7 +329,8 @@ h2 {
 }
 
 .projects {
-  list-style: none;
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .project-title {
@@ -300,13 +339,34 @@ h2 {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .project-paragraph {
   color: #434455;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.project-list-box {
+  flex-basis: calc((100% - 48px) / 3);
+}
+.service-box {
+  padding: 32px 16px;
+  border: 1px solid var(--background-color-2);
+  border-top: none;
+}
+.navigation {
+  display: flex;
+  align-items: center;
 }
 .visually-hidden {
   position: absolute;
