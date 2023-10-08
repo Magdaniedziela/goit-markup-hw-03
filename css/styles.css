@@ -195,8 +195,9 @@ h2 {
 }
 
 .our-team-box {
-  background-color: var(--background-color);
   width: calc((100% - 72px) / 4);
+  background-color: var(--background-color);
+
   border-radius: 0px 0px 4px 4px;
 }
 .our-team-title-list {
@@ -293,7 +294,7 @@ h2 {
   padding-right: 15px;
 }
 .section-two-list {
-  flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .picture-block {
