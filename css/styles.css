@@ -46,13 +46,15 @@ body {
   list-style: none;
   text-decoration: none;
 }
-.page-description {
+.page-description-link {
   color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 0.02em;
-  text-decoration: none;
+  letter-spacing: 0.32px;
+  display: inline-block;
+  padding: 24px 0;
 }
 .page-description:hover,
 .page-description:focus {
@@ -60,10 +62,6 @@ body {
 }
 
 .list {
-  list-style: none;
-  font-style: normal;
-  margin: 0;
-  padding-left: 0;
   display: flex;
   gap: 40px;
 }
@@ -122,7 +120,7 @@ body {
 .hero-button {
   display: block;
   background-color: #2196f3;
-  color: #ffffff;
+  color: #4d5ae5;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -269,17 +267,14 @@ h2 {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
-.header-container {
+.container-header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .logo-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 30px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-right: 76px;
 }
 
 .container {
