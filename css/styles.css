@@ -271,8 +271,6 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1158px;
-  padding: 0 15px 0 15px;
 }
 .logo-nav {
   display: flex;
