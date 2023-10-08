@@ -77,6 +77,9 @@ body {
 .address-description:focus {
   color: #404bbf;
 }
+.link {
+  padding: 24px 0 24px;
+}
 
 .contact {
   font-style: normal;
@@ -323,9 +326,12 @@ h2 {
 }
 .layout {
   padding: 12px 24px;
-  border: 1px solid var(--background-color-2);
   border-radius: 4px;
   margin-bottom: 72px;
+  border: 1px solid #e7e9fc;
+}
+.filter-photos-list {
+  width: calc((100% - 48px) / 3);
 }
 
 .filter {
