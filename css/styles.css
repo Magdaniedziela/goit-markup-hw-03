@@ -313,14 +313,16 @@ h2 {
 }
 
 .filter-list {
-  font-family: "Roboto", sans-serif;
-  color: var(--main-page-color-2);
-  background-color: var(--main-text-color-2);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5em;
-  letter-spacing: 0.64px;
-  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.layout {
+  padding: 12px 24px;
+  border: 1px solid var(--background-color-2);
+  border-radius: 4px;
+  margin-bottom: 72px;
 }
 
 .filter {
@@ -372,8 +374,7 @@ h2 {
 }
 .service-box {
   padding: 32px 16px;
-  border: 1px solid var(--background-color-2);
-  border-top: none;
+  border: 1px solid #e7e9fc;
 }
 .navigation {
   display: flex;
