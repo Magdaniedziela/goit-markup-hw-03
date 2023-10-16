@@ -249,7 +249,7 @@ h2 {
 }
 .our-team-background {
   background-color: #f4f4fd;
-  padding: 0;
+  padding: 120px 0;
 }
 .our-team-title-list {
   display: flex;
@@ -283,7 +283,7 @@ h2 {
 }
 .our-team {
   background-color: #f4f4fd;
-  padding: 120px;
+  padding: 0;
 }
 /* Footer */
 .footer {
