@@ -214,6 +214,9 @@ h2 {
   letter-spacing: 0.02em;
 }
 /* What are we doing */
+.section-what-are-we-doing {
+  padding-bottom: 120px;
+}
 .what-are-we-doing-title {
   color: var(--navy-blue);
   font-size: 36px;
