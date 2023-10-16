@@ -291,6 +291,7 @@ h2 {
 /* Footer */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0 100px;
 }
 .logo-part-foot {
   color: var(--purple);
@@ -307,7 +308,7 @@ h2 {
 
 .logo-foot {
   color: var(--off-white);
-  padding: 100px 0 100px;
+
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
