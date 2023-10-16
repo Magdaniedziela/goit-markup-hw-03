@@ -55,8 +55,8 @@ ol {
   color: #4d5ae5;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  line-height: 1.17em;
+  letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 76px;
   text-decoration: none;
@@ -253,7 +253,7 @@ h2 {
 }
 .our-team-background {
   background-color: #f4f4fd;
-  padding: 0;
+  padding: 120px 0;
 }
 .our-team-title-list {
   display: flex;
