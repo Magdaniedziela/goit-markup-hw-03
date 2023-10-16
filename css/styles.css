@@ -61,9 +61,6 @@ ol {
   margin-right: 76px;
   text-decoration: none;
 }
-.logo-position {
-  margin-right: 76px;
-}
 
 .logo-part {
   color: #2e2f42;
@@ -97,7 +94,7 @@ ol {
   color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.02em;
   letter-spacing: 0.32px;
   display: inline-block;
@@ -144,7 +141,6 @@ ol {
   line-height: 1.07em;
   text-align: center;
   letter-spacing: 1.12px;
-  text-transform: uppercase;
   margin: 0 auto;
   max-width: 496px;
   padding-bottom: 48px;
@@ -291,7 +287,6 @@ h2 {
 /* Footer */
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0 100px;
 }
 .logo-part-foot {
   color: var(--purple);
@@ -319,12 +314,9 @@ h2 {
 .footer-paragraph {
   color: var(--off-white);
   font-size: 16px;
-
   letter-spacing: 0.32px;
-
   font-weight: 400;
   line-height: 1.5em;
-
   max-width: 264px;
 }
 
@@ -353,7 +345,6 @@ h2 {
 .layout {
   padding: 12px 24px;
   border-radius: 4px;
-  margin-bottom: 72px;
   border: 1px solid #e7e9fc;
 }
 .projects-list {
